@@ -1,3 +1,100 @@
-div.head {
+/* . 22C-2 */
+.head {
+ 
+    margin-bottom: 40px;
+    position: relative;
     border: 2px solid red;
 }
+
+/* > 22C-3 */
+.head > h1 {
+    width: 700px;
+    border: 2px solid green;
+}
+
+/*  25D  */
+.head > span {
+    position: absolute;
+    float: right;
+}
+
+/* # 22C-1 */
+#article {
+    border: 2px solid blue;
+}
+
+/* + 22C-5 */
+.list > h1 + h2 {
+    border: 2px solid purple;
+}
+
+/* 23E */
+.background  {
+    border: 2px solid orange;
+    background-color: lightblue;
+}
+
+/* 23D */
+.background h2 {
+    color: orange;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+/* 23F */
+.background > div {
+    height: 300px;
+    width: 300px;
+    background-image: url("https://i.imgur.com/Vfq8jn7.png");
+    border: 2px solid orange;
+}
+
+/* 24D 24E 25C*/    /* 27E 27G 27C*/
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;
+    width: 400px;
+    padding-left: 20px;
+    position: absolute;
+    margin-top: 600px;
+    border: 2px solid green;
+}
+
+/* 24C 24F 25C */    /* 27E 27D*/
+.box #one {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    margin-top:20px;
+    position: relative;
+    border: 2px solid blue;
+}
+
+.box #two {
+    height: 200px;
+    width: 200px;
+    margin-top:20px;
+    position: relative;
+    border: 2px solid orange;
+}
+
+
+/* 30C 30D */
+.java {
+    height: 300px;
+    width: 300px;
+    box-shadow: 5px 10px #888888;
+    background: linear-gradient(red, yellow);
+}
+
+/* 30E*/
+.java h2 {
+    text-shadow: 2px 2px blue;
+}
+
+
+

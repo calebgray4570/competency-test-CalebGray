@@ -6,7 +6,8 @@
         <title>Caleb's Comp test</title> <!--  title 58C-->
         <meta name="description" content="Comp test for badeging"> <!--  description 58D-->
         <meta name="keywords" content="comp, test, devmountain,badging"> <!--  keywords 58E-->
-        <link rel="stylesheet" href="./test.css" media="print">  <!--  div 54H--> <!--  mediatype 58G -->
+        <link rel="stylesheet" href="./test.css">  <!--  link 54H--> 
+        <!-- <link rel="stylesheet" href="./test.css" media="print">   mediatype 58G -->
     </head>
     <body>
         <div class="head"> <!--  div 54C-->
@@ -14,20 +15,38 @@
             <h2>I am in a h2 tag</h2> <!--  h2 54F-->
             <span>I am in a span tag</span> <!--  span 54C-->
         </div>
-        <section> <!--  section  54D -->
+
+        <section id="article"> <!--  section  54D -->
             <article title="I am title atribule"> <!--  article  54D --> <!--  article  54J --> 
                 <p>(I'm in a p tag) "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p> <!--  p  54C -->
             </article>
         </section>
 
-        <div>
+        <div class="background">
+            <h2>this is font propertues</h2>
+            <div></div>
+
+        </div>
+
+        <div class="box">
+            <div id="one">inside box
+                <div id="two">
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="java">
+            <h2>Text effect</h2>
             <p id="demo"></p> <!--  script below  61C -->
             <script> 
                 document.getElementById("demo").innerHTML = "Hello JavaScript!";
             </script>
         </div>
 
-        <div>
+        <div class="list">
+            <h1>random tag</h1>
+            <h2>another random tag</h2>
             <ol>
                 <li>this</li> <!--  list  54E -->
                 <li>is</li>
